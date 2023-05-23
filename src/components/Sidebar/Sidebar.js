@@ -12,6 +12,16 @@ export default function Sidebar() {
         <img src={Logo} alt="" />
             <span>Sh<span>o</span>ps</span>
       </div>
+      {/*Menu*/
+      <div className="menu">
+        <div className="menuItem">
+          <div>Icon</div>
+          <span>Dashboard</span>
+
+        </div>
+      </div>
+      
+      }
     </div>
   )
 }
