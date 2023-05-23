@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import Logo from '../../img/logo.png'
+import{UilEstate} from "@iconscout/react-unicons";
 
 
 
@@ -15,7 +16,7 @@ export default function Sidebar() {
       {/*Menu*/
       <div className="menu">
         <div className="menuItem">
-          <div>Icon</div>
+          <div><UilEstate/></div>
           <span>Dashboard</span>
 
         </div>
