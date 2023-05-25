@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import Logo from '../../img/logo.png'
-import{UilEstate} from "@iconscout/react-unicons";
+import { SidebarData } from '../../Data/Data'
 
 
 
@@ -15,11 +15,21 @@ export default function Sidebar() {
       </div>
       {/*Menu*/
       <div className="menu">
-        <div className="menuItem">
-          <div><UilEstate/></div>
-          <span>Dashboard</span>
+        {SidebarData.map((Item, index)=>{
+            return(
+              <div className="menuItem">
+                <Item.icon/>
+                <span>{Item.heading}</span>
 
-        </div>
+              </div>
+            )
+
+
+        })
+        
+        
+        
+        }
       </div>
       
       }
