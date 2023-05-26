@@ -7,7 +7,7 @@ import { SidebarData } from '../../Data/Data'
 
 export default function Sidebar() {
   return (
-    <div className='Sidebar'>
+    <div className="Sidebar">
         {/*Logo*/}
       <div className="logo">
         <img src={Logo} alt="" />
@@ -15,11 +15,11 @@ export default function Sidebar() {
       </div>
       {/*Menu*/
       <div className="menu">
-        {SidebarData.map((Item, index)=>{
+        {SidebarData.map((item, index)=>{
             return(
               <div className="menuItem">
-                <Item.icon/>
-                <span>{Item.heading}</span>
+                <item.icon/>
+                <span>{item.heading}</span>
 
               </div>
             )

@@ -1,44 +1,41 @@
 //Siddebar imports
 
 import{
-    UilEstate,
-    // UliClipboardAlt,
-    // UliUsersAlt,
-    // UliChart,
-    // UliPackage,
-    UliSignOutAlt,
+    UilEstate ,
+    UilClipboardAlt ,
+    UilUsersAlt ,
+    UilPackage ,
+    UilChartLine  ,
 
-}from "@iconscout/react-unicons";
+}from '@iconscout/react-unicons';
 
 export const SidebarData =[
-   // {
-   //     icon: UilEstate,
-   //     heading:"Dashboard",
-   // },
+    {
+       icon: UilEstate ,
+       heading:"Dashboard",
+    },
 
-    // {
-    //     icon:  UliClipboardAlt,
-    //     heading:"Orders",
-    // },
+    {
+        icon:  UilClipboardAlt ,
+        heading:"Orders",
+     },
+ 
+     {
+         icon: UilUsersAlt ,
+         heading:"Coustomers",
+     },
 
-    // {
-    //     icon: UliUsersAlt,
-    //     heading:"Coustomers",
-    // },
-
-    // {
-    //     icon: UliPackage,
-    //     heading:"Products",
-    // },
+     {
+         icon: UilPackage ,
+         heading:"Products",
+     },
     
-    
-
-    // {
-    //     Icon: UliChart,
-    //     heading:"Analytics",
-    // },
-
-
+    {
+         icon: UilChartLine  ,
+         heading:"Analytics",
+     }
+/*
+*/
 
 ]
 
