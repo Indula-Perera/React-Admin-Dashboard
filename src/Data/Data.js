@@ -47,7 +47,7 @@ export const CardData =[
         color:{backGround:"linear-gradient(180deg,#bb67ff 0%, #c484f3 100%)",
         boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
-    barValue:70,
+    barValue:70 ,
     value:"25,970.",
     png:UilUsdSquare,
     series:[
