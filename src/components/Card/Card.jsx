@@ -4,8 +4,7 @@ import { AnimateSharedLayout } from 'framer-motion'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import './Card.css'
-
-import {UilTimes} from '"iconscout/react-unicons'
+import UilTimes from "@iconscout/react-unicons/icons/uil-x";
 
 export default function Card(props) {
 
@@ -56,12 +55,12 @@ function ExpandedCard({param, setExpanded }){
   return(
     <div className='ExpandedCard'
           style={{
-            backGround: param.color.backGround,
+            background: param.color.backGround,
             boxShadow:param.color.boxShadow,
           }}
     >
       <div>
-        <UilTimes onclick={setExpanded}/>
+        <UilTimes onClick={setExpanded}  />
       </div>
 
       <span>
